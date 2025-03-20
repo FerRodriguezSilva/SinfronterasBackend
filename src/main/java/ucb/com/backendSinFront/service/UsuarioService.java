@@ -48,4 +48,7 @@ public class UsuarioService {
                 })
                 .orElseThrow(() -> new RuntimeException("Usuario no encontrado con id: " + id));
     }
+
+
+
 }

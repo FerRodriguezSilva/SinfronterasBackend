@@ -67,12 +67,13 @@ public class Usuario {
         this.discapacidad = discapacidad;
     }
 
-    public String passwordHash() {
+    public String getPasswordHash() {
         return passwordHash;
     }
 
-    public void passwordHash(String passwordHash) {
+    public void setPasswordHash(String passwordHash) {
         this.passwordHash = passwordHash;
     }
+
 }
 
