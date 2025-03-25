@@ -19,9 +19,6 @@ public class Empresa {
     @Column(nullable = true)
     private String passwordHash;
 
-    @Column(nullable = true, length = 255)
-    private String direccion;
-
     @Column(nullable = true, length = 20)
     private String telefono;
 
@@ -36,7 +33,6 @@ public class Empresa {
         this.nombre = nombre;
         this.correo = correo;
         this.passwordHash = passwordHash;
-        this.direccion = direccion;
         this.telefono = telefono;
         this.descripcion = descripcion;
     }
@@ -72,14 +68,6 @@ public class Empresa {
 
     public void setPasswordHash(String passwordHash) {
         this.passwordHash = passwordHash;
-    }
-
-    public String getDireccion() {
-        return direccion;
-    }
-
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
     }
 
     public String getTelefono() {

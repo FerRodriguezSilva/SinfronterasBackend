@@ -40,7 +40,6 @@ public class EmpresaService {
                     empresa.setNombre(empresaActualizada.getNombre());
                     empresa.setCorreo(empresaActualizada.getCorreo());
                     empresa.setPasswordHash(empresaActualizada.getPasswordHash());
-                    empresa.setDireccion(empresaActualizada.getDireccion());
                     empresa.setTelefono(empresaActualizada.getTelefono());
                     empresa.setDescripcion(empresaActualizada.getDescripcion());
                     return empresaRepository.save(empresa);
